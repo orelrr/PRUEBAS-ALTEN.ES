@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Behave",
+            "type": "python",
+            "request": "launch",
+            "module": "behave",
+            "args": [
+                "features"  // Ruta a tus archivos de características
+            ],
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"  // Asegura que el directorio de trabajo esté en el PYTHONPATH
+            }
+        }
+    ]
+}

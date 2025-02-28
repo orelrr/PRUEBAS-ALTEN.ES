@@ -1,0 +1,23 @@
+# Entorno virtual
+venv/
+
+# Archivos de bytecode de Python
+__pycache__/
+**/__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración de pytest
+.pytest_cache/
+**/.pytest_cache/
+
+# Archivos de reportes y capturas
+reportes/
+capturas/
+
+# Archivos temporales y de sistema
+*~
+*.swp
+.DS_Store
+Thumbs.db
